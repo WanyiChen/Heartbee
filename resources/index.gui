@@ -1,0 +1,45 @@
+<svg>
+  <!-- imports -->
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <link rel="stylesheet" href="/mnt/sysassets/widgets/dynamic_textarea.css" />
+    <link rel="import" href="/mnt/sysassets/widgets/dynamic_textarea.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/square_button_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/mixed_text_widget.gui" />
+  </defs>
+  
+  <!-- background -->
+  <circle id="circle" cx="50%" cy="35%" r="75" fill="green" />
+  <image x="47%" y="15%" width="20" height="20" href="heart.png" load="sync" />
+  
+  <!-- texts -->
+  <text id="hrm-data" class="sensor-data" x="50%" y="45%" fill="white" font-size="50" font-weight="bold"></text>
+  
+  <!-- button -->
+  <use id="ok-button" href="#square-button" class="dialog-half-button-left" fill="fb-green">
+    <set href="#text" attributeName="text-buffer" to="I'm OK" />
+  </use>
+  <use id="help-button" href="#square-button" class="dialog-half-button-right" fill="fb-red">
+    <set href="#text" attributeName="text-buffer" to="HELP" />
+  </use>
+  
+  <!-- Take Care page -->
+  <svg id="take-care" display="none">
+  <rect class="full-size" fill="fb-black" />
+  <image x="35%" y="15%" width="120" height="120" href="smile.png" load="sync" />
+  <text id="hrm-label" class="sensor-label" x="50%" y="200" font-size="50" font-weight="bold">Take care</text>
+  </svg>
+  
+  <!-- Help on the way page -->
+  <svg id="help-coming" display="none">
+  <rect class="full-size" fill="fb-black" />
+  <text id="hrm-label" class="sensor-label" x="50%" y="50" font-weight="bold">Help is on the way</text>
+  <text id="hrm-label" class="sensor-label" x="50%" y="100" font-weight="bold">Log on to</text>
+    <text id="hrm-label" class="sensor-label" x="50%" y="$" font-weight="bold">www.beeheart.com</text>
+  <use id="got-it-button" href="#square-button-positive" y="70%">
+    <set href="#text" attributeName="text-buffer" to="Got it" />
+  </use>
+  </svg>
+  
+</svg>

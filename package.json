@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "b9f430bf-0317-4966-a307-f3e9c1d5efc4",
+    "appType": "app",
+    "appDisplayName": "BeeHeart",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "run_background",
+      "access_user_profile",
+      "access_internet",
+      "access_location"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "BeeHeart"
+      }
+    }
+  }
+}
