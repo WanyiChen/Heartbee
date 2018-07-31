@@ -1,8 +1,10 @@
 # Heartbee
 Heartbee tracks senior users' heart rate real time using the [Fitbit](www.fitbit.com) watch. If the heart rate increases above a danger threshold and meets certain conditions, we will notify the senior's family and friends immediately and enable online video chat via our paired web and iOS apps. Care for your loved ones, easy as can bee.
 
-Heartbee was born at [AngelHack San Francisco 2018](https://www.eventbrite.com/e/angelhack-san-francisco-hackathon-2018-tickets-45086935237#) over the weekend of July 28-29, created together with my amazing teammates: [Ami Zou](https://github.com/amigomushroom) (Software Engineer), [Gabi Stein](https://github.com/gabistein) (Product Manager + Database Enginner), and [Sophia Liu](https://www.linkedin.com/in/sophialiuinc/) (Designer).
+Heartbee was born at [AngelHack](https://angelhack.com/) San Francisco 2018 over the weekend of July 28-29, created together with my amazing teammates: [Ami Zou](https://github.com/amigomushroom) (Software Engineer), [Gabi Stein](https://github.com/gabistein) (Product Manager + Database Enginner), and [Sophia Liu](https://www.linkedin.com/in/sophialiuinc/) (Designer).
 This repo is for the Fitbit app, which I was responsible for. The frontend is in svg and css, and backend is in JavaScript. To see our paired web and iOS apps, check out [Ami's repo](https://github.com/amigomushroom/HeartBee-AngelHackSF2018).
+
+The original code submitted for AngelHack is frozen at the original branch. Future changes should be made in the develope branch.
 
 ## Awards
 + AngelHack's Code For A Cause Impact Award winner
