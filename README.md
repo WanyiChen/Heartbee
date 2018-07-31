@@ -15,13 +15,16 @@ Imagine that Madeline is a busy young professional living in the city, and her g
 San Francisco Chinatown is full of elderly citizens like Madeline's grandma. According to the statistics, more than 70% of them suffer from cardiovascular disease. We want to connect elderly parents and their family members in a way that doesn’t intrude on their independence, but make sure they’re being taken care of.
 
 ## System Architecture
+![architecture](architecture.png)
 
 ## The Fitbit App
 We created this seamless watch face with just two buttons. If everything is normal, the background will be green. If the heart rate goes near the danger threshold, the background will turn yellow as a warning. Currently we are using the formula (220 - user age) to calculate the danger threshold. Potentially we can come up with better and more customized algorithms. If the heart rate goes above the danger threshold, the background will turn red and the watch will start vibrating. Now if the user doesn't press the "I'm OK" button within 5 seconds, the watch will automatically notify the user's family and friends. If the user presses the "I'm OK" button, the watch will stop vibrating and cancel the notification. However, if the user isn't feeling well, he or she can press the "HELP" button at any time, and the watch will immediately send out notifications regardless of heart rate.
-(insert pic)
+![normal](normal.png)
+![warning](warning.png)
+![danger](danger.png)
 
 This message will show after the user presses the "I'm OK" button. It will auto disappear in 3 seconds.
-(insert pic)
+![ok](ok.png)
 
 This message will show after the user presses the "HELP" button. It will disappear after the user presses the "Got it" button. Currently we do not own "beeheart.com", but the idea is to ask the user to connect to our web app where video chat with family/friends will be auto started.
-(insert pic)
+![help](help.png)
